@@ -18,21 +18,25 @@
 Este projeto implementa um token ERC-20 chamado **My New Token**. O objetivo é criar um token personalizado no padrão ERC-20 utilizando Solidity, com funcionalidades adicionais como queima e cunhagem de tokens.
 
 ## 🛠 Tecnologias Empregadas
-- **Solidity**: Linguagem de programação para contratos inteligentes na Ethereum.
-- **OpenZeppelin**: Biblioteca de contratos inteligentes padrão para Ethereum.
 - **MetaMask**: Carteira de criptomoedas que permite interagir com a rede Ethereum e seus contratos.
 - **Remix IDE**: Ambiente integrado para criar, testar e implantar contratos inteligentes na Ethereum.
+- **Solidity**: Linguagem de programação para contratos inteligentes na Ethereum.
+- **OpenZeppelin**: Biblioteca de contratos inteligentes padrão para Ethereum.
+
+## 🔧 Utilização de Contratos OpenZeppelin
+- **Ownable**: Define um proprietário único para o contrato, controlando permissões administrativas e garantindo segurança.
+- **ERC20**: Implementa o padrão ERC-20 de forma segura e confiável, garantindo funcionalidade padrão para tokens.
 
 ## 🔍 Funcionalidades
-- **Transferência de Tokens**: Permite a transferência de tokens entre endereços usando a função `transfer`.
 - **Queima de Tokens**: Permite a destruição de tokens do próprio saldo do chamador usando a função `burn`, reduzindo o suprimento total.
-- **Cunhagem de Tokens**: Permite ao proprietário do contrato criar novos tokens e adicioná-los ao saldo de um endereço especificado usando a função `mint`.
+- **Cunhagem de Tokens**: Permite ao proprietário criar novos tokens e adicioná-los ao saldo de um endereço usando a função `mint`.
+- **Transferência de Tokens**: Permite a transferência de tokens entre endereços usando a função `transfer`.
 
 ## 📜 Contrato MyNewToken
+- **Suprimento Inicial**: `1.000.000 MNT`
 - **Nome do Token**: `My New Token`
 - **Símbolo do Token**: `MNT`
 - **Casas Decimais**: `18`
-- **Suprimento Inicial**: `1.000.000 MNT`
 
 ## 📋 Interface ERC20
 A interface `ERC20` define as funções e eventos obrigatórios para um token ERC-20, incluindo:
@@ -41,6 +45,9 @@ A interface `ERC20` define as funções e eventos obrigatórios para um token ER
 - `transfer(address recipient, uint256 amount)`: Transfere tokens para outro endereço.
 - `burn(uint256 amount)`: Queima (destrói) uma quantidade específica de tokens do próprio saldo.
 - `mint(address to, uint256 amount)`: Cunha novos tokens para um endereço específico.
+
+## ⚠️ Importante: Junte ETH de Faucets
+Antes de interagir com o contrato, **certifique-se de juntar uma quantidade suficiente de ETH** de faucets. Esses ETH serão necessários para pagar as taxas de transação (gas fees) na rede de testes. Como os faucets costumam fornecer apenas uma pequena quantidade por vez, é recomendável obter mais de uma vez para garantir que você tenha o suficiente para testar o contrato sem interrupções.
   
 ## 🛠 Guia de Implementação
 1. **Configuração do Ambiente**
