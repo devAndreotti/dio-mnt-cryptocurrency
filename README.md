@@ -11,7 +11,7 @@
 </p>
 
 <div align="center">
-  <img src="Thumb.webp" alt="MNT Banner"/>
+  <img src="Thumb.webp" alt="Ethereum Banner"/>
 </div>
 
 ## 🎯 Objetivo do Projeto
