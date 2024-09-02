@@ -3,11 +3,11 @@
 
 <p align="center">
   <!-- Contador de linguagens do GitHub -->
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/dio-mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
   <!-- Tamanho do repositório no GitHub -->
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/devAndreotti/dio-mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
   <!-- Último commit no GitHub -->
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/devAndreotti/dio-mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
 </p>
 
 <div align="center">
