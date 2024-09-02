@@ -1,28 +1,27 @@
 <!-- Projeto Finalizado -->
-# 🪙 Desafio DIO: Um Novo Token
+# 🪙 Desafio DIO: Meu Novo Token
 
 <p align="center">
   <!-- Contador de linguagens do GitHub -->
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=3f3d3a&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
   <!-- Tamanho do repositório no GitHub -->
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=3f3d3a&style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
   <!-- Último commit no GitHub -->
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=3f3d3a&style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/devAndreotti/mnt-cryptocurrency?color=FFF&labelColor=993d0a&style=flat-square">
 </p>
 
 <div align="center">
-  <img src="Thumb.png" alt="MNT Banner"/>
+  <img src="Thumb.webp" alt="MNT Banner"/>
 </div>
 
 ## 🎯 Objetivo do Projeto
-Este projeto implementa um token ERC-20 chamado **MNT Cryptocurrency**. O objetivo é criar um token personalizado no padrão ERC-20 utilizando Solidity, com funcionalidades adicionais como queima e cunhagem de tokens.
+Este projeto implementa um token ERC-20 chamado **My New Token**. O objetivo é criar um token personalizado no padrão ERC-20 utilizando Solidity, com funcionalidades adicionais como queima e cunhagem de tokens.
 
 ## 🛠 Tecnologias Empregadas
 - **Solidity**: Linguagem de programação para contratos inteligentes na Ethereum.
 - **OpenZeppelin**: Biblioteca de contratos inteligentes padrão para Ethereum.
 - **MetaMask**: Carteira de criptomoedas que permite interagir com a rede Ethereum e seus contratos.
 - **Remix IDE**: Ambiente integrado para criar, testar e implantar contratos inteligentes na Ethereum.
-- **Truffle**: Framework para contratos inteligentes, facilitando a escrita, teste e implantação de contratos Ethereum.
 
 ## 🔍 Funcionalidades
 - **Transferência de Tokens**: Permite a transferência de tokens entre endereços usando a função `transfer`.
@@ -42,19 +41,17 @@ A interface `ERC20` define as funções e eventos obrigatórios para um token ER
 - `transfer(address recipient, uint256 amount)`: Transfere tokens para outro endereço.
 - `burn(uint256 amount)`: Queima (destrói) uma quantidade específica de tokens do próprio saldo.
 - `mint(address to, uint256 amount)`: Cunha novos tokens para um endereço específico.
-
+  
 ## 🛠 Guia de Implementação
 1. **Configuração do Ambiente**
-   - **MetaMask**: Conecte-se à rede Ethereum.
-   - **Remix IDE**: Use o Remix para compilar e implantar o contrato.
-   - **Truffle**: Instale o Truffle e crie um novo projeto com `truffle init`.
+   - **MetaMask**: Instale a extensão no navegador, crie uma conta e escolha uma rede de testes (Testnet).
+   - **Faucets**: Obtenha ETH falso em sites de faucets para pagar taxas de transação.
+   - **Remix IDE**: Acesse [remix.ethereum](https://remix.ethereum.org) para compilar e implantar o contrato.
 2. **Implementação do Contrato**
-   - Insira e compile o contrato `MyNewToken` no Remix.
-   - Configure e compile o contrato com o Truffle.
-   - Ajuste `truffle-config.js` para conectar à rede Ethereum.
-   - Implemente o contrato com `truffle migrate`.
+   - Insira e compile o código do `MyNewToken` no Remix.
+   - Conecte o MetaMask à rede de testes e aceite a transação para implantar o contrato.
 3. **Interação com o Contrato**
-   - Use o Remix ou Truffle Console para interagir e realizar transações de teste com o contrato.
+   - No Remix, interaja com as funções do contrato para testar.
 
 ## 💪 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou fazer um fork do repositório e enviar pull requests.
@@ -65,8 +62,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou fazer 
 5. Abra um Pull Request.
 
 ## 📝 Nota
-Este projeto é para fins educacionais. Sinta-se livre para explorar, adaptar e contribuir com melhorias.
-
----
-
-Esse README foi estruturado para destacar as funcionalidades e tecnologias empregadas, oferecendo um guia claro para implementação e interação com o contrato.
+Este projeto é para fins educacionais, feito para o desafio da **DIO**. Sinta-se livre para explorar e adaptar.
