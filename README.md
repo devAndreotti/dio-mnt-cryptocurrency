@@ -18,10 +18,10 @@
 Este projeto implementa um token ERC-20 chamado **My New Token**. O objetivo é criar um token personalizado no padrão ERC-20 utilizando Solidity, com funcionalidades adicionais como queima e cunhagem de tokens.
 
 ## 🛠 Tecnologias Empregadas
-- **MetaMask**: Carteira de criptomoedas que permite interagir com a rede Ethereum e seus contratos.
-- **Remix IDE**: Ambiente integrado para criar, testar e implantar contratos inteligentes na Ethereum.
-- **Solidity**: Linguagem de programação para contratos inteligentes na Ethereum.
-- **OpenZeppelin**: Biblioteca de contratos inteligentes padrão para Ethereum.
+- **[MetaMask](https://metamask.io/)**: Carteira de criptomoedas que permite interagir com a rede Ethereum e seus contratos.
+- **[Remix IDE](https://remix.ethereum.org/)**: Ambiente integrado para criar, testar e implantar contratos inteligentes na Ethereum.
+- **[Solidity](https://soliditylang.org/)**: Linguagem de programação para contratos inteligentes na Ethereum.
+- **[OpenZeppelin](https://openzeppelin.com/)**: Biblioteca de contratos inteligentes padrão para Ethereum.
 
 ## 🔧 Utilização de Contratos OpenZeppelin
 - **Ownable**: Define um proprietário único para o contrato, controlando permissões administrativas e garantindo segurança.
